@@ -15,98 +15,133 @@
 </head>
 
 <body>
-    <header>
-        <a href="index.html"><img src="assets/icons/logo.svg" alt="Logo Festicloze"></a>
-        <button>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="assets/icons/logo.svg" alt="Logo Festicloze"></a>
+    
+        <button class="header__menu-btn menu-btn">
             <img src="assets/icons/boutons/menu bouton.svg" alt="bouton menu"></button>
+    
+        <nav class="header__menu menu">
+            <ul class="menu__list u-list-unstyled">
+                <li class="menu__item">
+                    <a class="menu__link" href="le festicloze.html">Le Festicloze</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="programme.html">Le programme</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="les artistes.html">Les artistes</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="nos scènes.html">Nos scènes</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="info pratiques.html">Infos pratiques</a>
+                </li>
+            </ul>
+            <ul class="menu__sub-list u-list-unstyled">
+                <li class="menu__sub-item">
+                    <a class="menu__link" href="contact.html">Contact</a>
+                </li>
+                <li class="menu__sub-item">
+                    <a class="menu__link" href="FAQ.html">FÀQ</a>
+                </li>
+                <li class="menu__sub-item">
+                    <a class="menu__link" href="à propos.html">À propos</a>
+                </li>
+            </ul>
+        </nav>
     </header>
 
     <main>
-        <div>
-            <img src="assets/img/hero/programme hero.avif" alt="Programme hero">
-            <h1>Le programme du Festicloze</h1>
-            <p>Retrouvez ici l’entièreté de notre programme !</p>
+        <div class="hero">
+            <img class="hero__img" src="assets/img/hero/programme hero.avif" alt="Programme hero">
+            <h1 class="hero__title">Le programme du Festicloze</h1>
+            <p class="hero__intro">Retrouvez ici l’entièreté de notre programme !</p>
             <div>
                 <img src="assets/icons/decorations/dorure feuille rouge gauche.svg" alt="">
                 <img src="assets/icons/decorations/dorure feuille rouge gauche.svg" alt="">
             </div>
         </div>
 
-        <div>
-            <img src="assets/icons/decorations/dorure barrière rouge.svg" alt="">
-            <h2>Filtre</h2>
-            <p>Que cherchez-vous ?</p>
-            <div>
-                <button>Genre <img src="assets/icons/triangle blanc.svg" alt=""></button>
-                <button>Scènes <img src="assets/icons/triangle blanc.svg" alt=""></button>
-                <button>Jours <img src="assets/icons/triangle blanc.svg" alt=""></button>
+        <img class="deco__bar-up" src="assets/icons/decorations/dorure barrière rouge.svg" alt="">
+
+        <div class="filter">  
+            <h2 class="title">Filtre</h2>
+            <p class="filter__text">Que cherchez-vous ?</p>
+            <div class="filter__button">
+                <button class="filter__button-genre">Genre <img src="assets/icons/triangle blanc.svg" alt=""></button>
+                <button class="filter__button-scene">Scènes <img src="assets/icons/triangle blanc.svg" alt=""></button>
+                <button class="filter__button-day">Jours <img src="assets/icons/triangle blanc.svg" alt=""></button>
             </div>
-            <img src="assets/icons/decorations/dorure barrière rouge.svg" alt="">
         </div>
 
-        <div>
-            <img src="assets/icons/decorations/dorure barrière bleue.svg" alt="">
-            <h2>Jour 1</h2>
+        <img class="deco__bar-down" src="assets/icons/decorations/dorure barrière rouge.svg" alt="">
+        <img class="deco__bar-up" src="assets/icons/decorations/dorure barrière bleue.svg" alt="">
+
+        <div class="day__one">
+            <h2 class="title">Jour 1</h2>
             <div>
                 <img src="assets/icons/decorations/point rouge gauche.svg" alt="">
                 <img src="assets/icons/decorations/point rouge gauche.svg" alt="">
             </div>
-            <div>
-                <div>
-                    <h4>Scène : Église Saint-Maimboeuf</h4>
-                    <p>19h00 - Ensemble Harmonia Antiqua</p>
-                    <p>Genre : Baroque français</p>
-                    <p>-</p>
-                    <p>Programme : Lully, Charpentier</p>
+            <div class="card-programme">
+                <div class="sub-card-programme">
+                    <h4 class="programme__scene">Scène : Église Saint-Maimboeuf</h4>
+                    <p class="programme__hour">19h00 - Ensemble Harmonia Antiqua</p>
+                    <p class="programme__info">Genre : Baroque français</p>
+                    <p class="programme__info">-</p>
+                    <p class="programme__info">Programme : Lully, Charpentier</p>
                 </div>
-                <div>
-                    <h4>Scène : Vieille ville</h4>
-                    <p>19h00 - Les Violons des Lumières</p>
-                    <p>Genre : Baroque italien</p>
-                    <p>-</p>
-                    <p>Programme : Performance déambulatoire dans les ruelles</p>
+                <div class="sub-card-programme">
+                    <h4 class="programme__scene">Scène : Vieille ville</h4>
+                    <p class="programme__hour">19h00 - Les Violons des Lumières</p>
+                    <p class="programme__info">Genre : Baroque italien</p>
+                    <p class="programme__info">-</p>
+                    <p class="programme__info">Programme : Performance déambulatoire dans les ruelles</p>
                 </div>   
             </div>
-            <h2>Jour 2</h2>
+            <h2 class="title">Jour 2</h2>
             <div>
                 <img src="assets/icons/decorations/point rouge gauche.svg" alt="">
                 <img src="assets/icons/decorations/point rouge gauche.svg" alt="">
             </div>
-            <div>
-                <div>
-                    <h4>Scène : Château de Wurtemberg</h4>
-                    <p>19h00 - Concert</p>
-                    <p>Genre : Baroque américain</p>
-                    <p>-</p>
-                    <p>Programme : Mariah Carey</p>
+            <div class="card-programme">
+                <div class="sub-card-programme">
+                    <h4 class="programme__scene">Scène : Château de Wurtemberg</h4>
+                    <p class="programme__hour">19h00 - Concert</p>
+                    <p class="programme__info">Genre : Baroque américain</p>
+                    <p class="programme__info">-</p>
+                    <p class="programme__info">Programme : Mariah Carey</p>
                 </div>
-                <div>
-                    <h4>Scène : Marché</h4>
-                    <p>19h00 - Concert</p>
-                    <p>Genre : Baroque américain</p>
-                    <p>-</p>
-                    <p>Programme : Mariah Carey</p>
+                <div class="sub-card-programme">
+                    <h4 class="programme__scene">Scène : Marché</h4>
+                    <p class="programme__hour">19h00 - Concert</p>
+                    <p class="programme__info">Genre : Baroque américain</p>
+                    <p class="programme__info">-</p>
+                    <p class="programme__info">Programme : Mariah Carey</p>
                 </div>
             </div>
-            <h2>Jour 3</h2>
+            <h2 class="title">Jour 3</h2>
             <div>
                 <img src="assets/icons/decorations/point rouge gauche.svg" alt="">
                 <img src="assets/icons/decorations/point rouge gauche.svg" alt="">
             </div>
-            <div>
-                <div>
-                    <h4>Scène : Temple Saint-Martin</h4>
-                    <p>19h00 - Concert</p>
-                    <p>Genre : Baroque américain</p>
-                    <p>-</p>
-                    <p>Programme : Mariah Carey</p>
+            <div class="card-programme">
+                <div class="sub-card-programme">
+                    <h4 class="programme__scene">Scène : Temple Saint-Martin</h4>
+                    <p class="programme__hour">19h00 - Concert</p>
+                    <p class="programme__info">Genre : Baroque américain</p>
+                    <p class="programme__info">-</p>
+                    <p class="programme__info">Programme : Mariah Carey</p>
                 </div>
-                <div>
-                    <h4>Scène : Marché</h4>
-                    <p>19h00 - Concert</p>
-                    <p>Genre : Baroque américain</p>
-                    <p>-</p>
-                    <p>Programme : Mariah Carey</p>
+                <div class="sub-card-programme">
+                    <h4 class="programme__scene">Scène : Marché</h4>
+                    <p class="programme__hour">19h00 - Concert</p>
+                    <p class="programme__info">Genre : Baroque américain</p>
+                    <p class="programme__info">-</p>
+                    <p class="programme__info">Programme : Mariah Carey</p>
                 </div>
             </div>
 
@@ -132,18 +167,27 @@
         </div>
     </main>
 
-    <footer>
+    <footer class="footer">
         <img src="assets/icons/mmi.svg" alt="MMI">
-        <ul>
-            <li><a href="contact.html"></a>Contact</li>
-            <li><a href="FAQ.html"></a>FAQ</li>
-            <li><a href="à propos.html"></a>À propos</li>
-        </ul>
-        <a href="https://www.facebook.com/mariahcarey/?locale=fr_FR"><img src="assets/icons/RS/facebook.svg" alt=""></a>
-        <a href="https://www.youtube.com/channel/UCurpiDXSkcUbgdMwHNZkrCg"><img src="assets/icons/RS/youtube.svg"
-                alt=""></a>
-        <a href="https://www.instagram.com/mariahcarey/"><img src="assets/icons/RS/instagram.svg" alt=""></a>
-
+        <nav class="footer__nav">
+            <ul class="u-list-unstyled footer__list">
+                <li class="footer__item">
+                    <a class="footer__link" href="contact.html"></a>Contact
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="FAQ.html"></a>FAQ
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="à propos.html"></a>À propos
+                </li>
+            </ul>
+        </nav>
+        <div class="footer__social-media">
+            <a href="https://www.facebook.com/mariahcarey/?locale=fr_FR"><img src="assets/icons/RS/facebook.svg" alt=""></a>
+            <a href="https://www.youtube.com/channel/UCurpiDXSkcUbgdMwHNZkrCg"><img src="assets/icons/RS/youtube.svg"
+                    alt=""></a>
+            <a href="https://www.instagram.com/mariahcarey/"><img src="assets/icons/RS/instagram.svg" alt=""></a>
+        </div>
         <p>© projet réalisé en 2025 dans le cadre d'un exercice pédagogique au <span><a
                     href="https://www.iut-nfc.univ-fcomte.fr/b-u-t-metiers-du-multimedia-et-de-linternet/">département
                     MMI de Montbéliard</a></span></p>

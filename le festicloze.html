@@ -15,79 +15,130 @@
 </head>
 
 <body>
-    <header>
-        <a href="index.html"><img src="assets/icons/logo.svg" alt="Logo Festicloze"></a>
-        <button>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="assets/icons/logo.svg" alt="Logo Festicloze"></a>
+    
+        <button class="header__menu-btn menu-btn">
             <img src="assets/icons/boutons/menu bouton.svg" alt="bouton menu"></button>
+    
+        <nav class="header__menu menu">
+            <ul class="menu__list u-list-unstyled">
+                <li class="menu__item">
+                    <a class="menu__link" href="le festicloze.html">Le Festicloze</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="programme.html">Le programme</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="les artistes.html">Les artistes</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="nos scènes.html">Nos scènes</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="info pratiques.html">Infos pratiques</a>
+                </li>
+            </ul>
+            <ul class="menu__sub-list u-list-unstyled">
+                <li class="menu__sub-item">
+                    <a class="menu__link" href="contact.html">Contact</a>
+                </li>
+                <li class="menu__sub-item">
+                    <a class="menu__link" href="FAQ.html">FÀQ</a>
+                </li>
+                <li class="menu__sub-item">
+                    <a class="menu__link" href="à propos.html">À propos</a>
+                </li>
+            </ul>
+        </nav>
     </header>
 
     <main>
-        <div>
-            <img src="assets/img/.avif" alt="Le Festicloze hero">
-            <h1>Découvrez-Nous !</h1>
-            <p>“Le Festicloze, la magie de Noël au cœur de la musique baroque.”</p>
+        <div class="hero">
+            <img class="hero__img" src="assets/img/Accueil/Le festicloze.avif" alt="Le Festicloze hero">
+            <h1 class="hero__title" >Découvrez-Nous !</h1>
+            <p class="hero__intro" >“Le Festicloze, la magie de Noël au cœur de la musique baroque.”</p>
             <div>
-                <img src="assets/icons/decorations/dorure feuille rouge gauche.svg" alt="">
-                <img src="assets/icons/decorations/dorure feuille rouge gauche.svg" alt="">
+                <img class="deco__hero-left" src="assets/icons/decorations/dorure feuille rouge gauche.svg" alt="">
+                <img class="deco__hero-right" src="assets/icons/decorations/dorure feuille rouge gauche.svg" alt="">
             </div>
         </div>
 
-        <div>
-            <img src="assets/icons/decorations/dorure barrière rouge.svg" alt="">
-            <h2>Notre festival</h2>
-            <p>Le Festicloze est un festival musical baroque inédit qui transforme Montbéliard en véritable écrin féerique pendant les
+        <img class="deco__bar-up" src="assets/icons/decorations/dorure barrière rouge.svg" alt="">    
+
+        <div class="festicloze">
+            <h2 class="title">Notre festival</h2>
+            <p class="festicloze__text">Le Festicloze est un festival musical baroque inédit qui transforme Montbéliard en véritable écrin féerique pendant les
             vacances de Noël.</p>
-            <p>Pendant trois jours, entre le 20 et le 23 décembre, familles, seniors, passionnés de musique baroque et simples curieux
+            <p class="festicloze__text">Pendant trois jours, entre le 20 et le 23 décembre, familles, seniors, passionnés de musique baroque et simples curieux
             sont invités à découvrir un univers sonore riche et chaleureux, en parfaite harmonie avec les traditions hivernales de
-            la région !</p>
-            <img src="assets/icons/decorations/dorure barrière rouge.svg" alt="">
+            la région !</p>          
         </div>
 
-        <div>
-            <img src="assets/icons/decorations/dorure barrière bleue.svg" alt="">
-            <h2>Notre but</h2>
-            <p>Au cœur des lieux patrimoniaux emblématiques de la ville, Le Festicloze vise à proposer une expérience immersive et
+        <img class="deco__bar-down" src="assets/icons/decorations/dorure barrière rouge.svg" alt="">
+        <img class="deco__bar-up" src="assets/icons/decorations/dorure barrière bleue.svg" alt="">
+
+        <div class="goals">
+            <h2 class="title">Notre but</h2>
+            <div>
+                <img class="deco__body-left" src="assets/icons/decorations/point rouge gauche.svg" alt="">
+                <img class="deco__body-right" src="assets/icons/decorations/point rouge gauche.svg" alt="">
+            </div>
+            <p class="festicloze__text">Au cœur des lieux patrimoniaux emblématiques de la ville, Le Festicloze vise à proposer une expérience immersive et
             magique, mêlant concerts baroques, jeux de lumière et marché d’artisans locaux.</p>
-            <img src="assets/img/découvrez-nous/photo festival.avif" alt="photo du festival">
-            <p>Plus qu’un événement, le festival célèbre le savoir-faire montbéliardais et cherche activement à contribuer et renforcer
+            <img class="festicloze__img" src="assets/img/découvrez-nous/photo festival.avif" alt="photo du festival">
+            <p class="festicloze__text">Plus qu’un événement, le festival célèbre le savoir-faire montbéliardais et cherche activement à contribuer et renforcer
             l’attractivité culturelle de la ville, en offrant un rendez-vous aussi magique que convivial.</p>
-            <img src="assets/icons/decorations/dorure barrière bleue.svg" alt="">
         </div>
 
-        <div>
-            <img src="assets/icons/decorations/dorure barrière dorée.svg" alt="">
-            <h3>Nos Valeurs</h3>
+        <img class="deco__bar-down" src="assets/icons/decorations/dorure barrière bleue.svg" alt="">
+        <img class="deco__bar-up" src="assets/icons/decorations/dorure barrière dorée.svg" alt="">
+
+        <div class="valors">
+            <h2 class="title">Nos Valeurs</h2>
             <div>
                 <img src="assets/icons/decorations/dorure feuille dorée gauche.svg" alt="">
                 <img src="assets/icons/decorations/dorure feuille dorée gauche.svg" alt="">
             </div>
-            <p>Le Festicloze s’appuie sur trois valeurs essentielles qui donnent tout son sens à l’événement.</p>
-            <p><strong>Le partage</strong> est au cœur du festival : il réunit les générations autour de la musique baroque et de moments chaleureux, favorisant la convivialité et la
+            <p class="festicloze__text">Le Festicloze s’appuie sur trois valeurs essentielles qui donnent tout son sens à l’événement.</p>
+            <p class="festicloze__text"><strong>Le partage</strong> est au cœur du festival : il réunit les générations autour de la musique baroque et de moments chaleureux, favorisant la convivialité et la
             rencontre.</p>
-            <p><strong>La tradition</strong> est également fondamentale : Festicloze célèbre l’héritage musical et le riche patrimoine de Montbéliard, en mettant enlumière ses savoir-faire et son identité culturelle.</p>
-            <p>Enfin,<strong> L'émerveillement</strong> guide toute la programmation : grâce à la magie de Noël, à la musique et à une scénographie soignée, le festival offre une expérience captivante où
+            <p class="festicloze__text"><strong>La tradition</strong> est également fondamentale : Festicloze célèbre l’héritage musical et le riche patrimoine de Montbéliard, en mettant enlumière ses savoir-faire et son identité culturelle.</p>
+            <p class="festicloze__text">Enfin,<strong> L'émerveillement</strong> guide toute la programmation : grâce à la magie de Noël, à la musique et à une scénographie soignée, le festival offre une expérience captivante où
             petits et grands peuvent s’étonner, rêver et se laisser transporter.</p>
-            <img src="assets/img/découvrez-nous/photo valeur.avif" alt="photo valeurs">
+            <img class="festicloze__img" src="assets/img/découvrez-nous/photo valeur.avif" alt="photo valeurs">
             <div>
                 <img src="assets/icons/decorations/dorure feuille dorée gauche.svg" alt="">
                 <img src="assets/icons/decorations/dorure feuille dorée gauche.svg" alt="">
             </div>
-            <img src="assets/icons/decorations/dorure barrière dorée.svg" alt="">
         </div>
+
+        <img class="deco__bar deco__bar-down" src="assets/icons/decorations/dorure barrière dorée.svg" alt="">
+
     </main>
 
-    <footer>
+    <footer class="footer">
         <img src="assets/icons/mmi.svg" alt="MMI">
-        <ul>
-            <li><a href="contact.html"></a>Contact</li>
-            <li><a href="FAQ.html"></a>FAQ</li>
-            <li><a href="à propos.html"></a>À propos</li>
-        </ul>
-        <a href="https://www.facebook.com/mariahcarey/?locale=fr_FR"><img src="assets/icons/RS/facebook.svg" alt=""></a>
-        <a href="https://www.youtube.com/channel/UCurpiDXSkcUbgdMwHNZkrCg"><img src="assets/icons/RS/youtube.svg"
-                alt=""></a>
-        <a href="https://www.instagram.com/mariahcarey/"><img src="assets/icons/RS/instagram.svg" alt=""></a>
-
+        <nav class="footer__nav">
+            <ul class="u-list-unstyled footer__list">
+                <li class="footer__item">
+                    <a class="footer__link" href="contact.html"></a>Contact
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="FAQ.html"></a>FAQ
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="à propos.html"></a>À propos
+                </li>
+            </ul>
+        </nav>
+        <div class="footer__social-media">
+            <a href="https://www.facebook.com/mariahcarey/?locale=fr_FR"><img src="assets/icons/RS/facebook.svg" alt=""></a>
+            <a href="https://www.youtube.com/channel/UCurpiDXSkcUbgdMwHNZkrCg"><img src="assets/icons/RS/youtube.svg"
+                    alt=""></a>
+            <a href="https://www.instagram.com/mariahcarey/"><img src="assets/icons/RS/instagram.svg" alt=""></a>
+        </div>
         <p>© projet réalisé en 2025 dans le cadre d'un exercice pédagogique au <span><a
                     href="https://www.iut-nfc.univ-fcomte.fr/b-u-t-metiers-du-multimedia-et-de-linternet/">département
                     MMI de Montbéliard</a></span></p>

@@ -3,11 +3,11 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
+- NOM : SARKISSIAN
+- PRÉNOM : Telmane 
+- GROUPE : C1
 - URL du site :
-- URL FIGMA :
+- URL FIGMA :https://www.figma.com/design/y3lkfIYIv0kUr54EGqQ2ji/SA%C3%89-105?node-id=0-1&t=24MBzAZlBS61kyAW-1
 
 ## Sujet
 

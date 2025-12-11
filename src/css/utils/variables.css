@@ -1,0 +1,28 @@
+[data-theme="Mode 1"] {
+    /* color */
+    --beige: #ff9a9a;
+    --bleu: #93d5db;
+    --dark: #111111;
+    --ivoire: #f4ecd8;
+    --jaune: #d6d020;
+    --rouge: #b90000;
+    --rouge-foncé: #6e0000;
+}
+
+[data-theme="Mode 1"] {
+    /* number */
+    --text-small: 0.625rem;
+    --text-bold: 0.875rem;
+    --text-italic: 0.875rem;
+    --text-text: 0.875rem;
+    --text-text-xl: 1rem;
+    --text-bold-2xl: 1.125rem;
+    --text-h4: 1.25rem;
+    --text-button: 1.5rem;
+    --text-h3: 2rem;
+    --text-h2: 2.25rem;
+    --text-h1: 2.5rem;
+    /* string */
+    --font-sans: Poppins;
+    --font-title: Gloock;
+}

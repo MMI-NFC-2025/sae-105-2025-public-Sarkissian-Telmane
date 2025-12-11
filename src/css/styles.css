@@ -1,8 +1,22 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+/* style.css - Ordre CRUCIAL */
 
+/* 1. Vendors - Spécificité la plus faible */
+@import "vendors/normalize.css";
+
+/* 2. Utils - Variables globales */
+@import "utils/variables.css";
+
+/* 3. Base - Éléments HTML bruts */
+@import "base/main.css";
+
+/* 4. Layout - Structure de page */
+@import "layout/header.css";
+
+/* 5. Components - Spécificité la plus forte */
+@import "components/button.css";
+
+
+/*********************** début reset css ***********************/
 html,
 body,
 div,
@@ -135,21 +149,4 @@ table {
 }
 
 /********************* fin reset css *********************/
-
-/* style.css - Ordre CRUCIAL */
-
-/* 1. Vendors - Spécificité la plus faible */
-@import "vendors/normalize.css";
-
-/* 2. Utils - Variables globales */
-@import "utils/variables.css";
-
-/* 3. Base - Éléments HTML bruts */
-@import "base/main.css";
-
-/* 4. Layout - Structure de page */
-@import "layout/header.css";
-
-/* 5. Components - Spécificité la plus forte */
-@import "components/button.css";
 

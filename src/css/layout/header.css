@@ -1,0 +1,28 @@
+body img {
+
+    width: 100%;
+}
+
+.header {
+    background: linear-gradient(var(--dark), var(--rouge-foncé));
+    position: sticky;
+    top: 0px;
+}
+
+.header__container-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0 20px;
+}
+
+.header__container {
+    position: relative;
+}
+
+.header__container-menu-btn {
+    position: absolute;
+    top: 65%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+}

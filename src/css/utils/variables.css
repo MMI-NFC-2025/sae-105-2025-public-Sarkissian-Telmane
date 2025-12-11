@@ -1,4 +1,4 @@
-[data-theme="Mode 1"] {
+:root {
     /* color */
     --beige: #ff9a9a;
     --bleu: #93d5db;
@@ -7,9 +7,7 @@
     --jaune: #d6d020;
     --rouge: #b90000;
     --rouge-foncé: #6e0000;
-}
 
-[data-theme="Mode 1"] {
     /* number */
     --text-small: 0.625rem;
     --text-bold: 0.875rem;
@@ -25,4 +23,6 @@
     /* string */
     --font-sans: Poppins;
     --font-title: Gloock;
+
+
 }

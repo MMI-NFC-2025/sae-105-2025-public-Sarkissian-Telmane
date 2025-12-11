@@ -16,12 +16,19 @@
 
 <body>
     <header class="header">
-        <a href="index.html">
-            <img class="header__logo" src="assets/icons/logo.svg" alt="Logo Festicloze"></a>
-
-        <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
-            <img src="assets/icons/boutons/menu bouton.svg" alt="bouton menu"></button>
-
+        <div class="header__container">
+            <div class="header__container-logo">
+                <a href="index.html">
+                    <img class="header__logo" src="assets/icons/logo.svg" alt="Logo Festicloze">
+                </a>
+            </div>
+    
+            <div class="header__container-menu-btn">
+                <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+                    <img src="assets/icons/boutons/menu bouton.svg" alt="bouton menu">
+                </button>
+            </div>
+        </div>
         <nav class="header__menu menu" hidden>
             <ul class="menu__list u-list-unstyled">
                 <li class="menu__item">

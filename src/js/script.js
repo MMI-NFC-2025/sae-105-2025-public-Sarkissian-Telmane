@@ -1,0 +1,15 @@
+// On cible les éléments à modifier
+const toggle = document.querySelector(".menu-btn");
+const nav = document.querySelector(".menu");
+
+// Vérifier si les éléments existent avant d'ajouter l'événement
+if (toggle && nav) {
+    toggle.addEventListener("click", () => {
+        const isOpen = toggle.ariaExpanded === "true";
+        const isClosed = !isOpen;
+
+        // Mise à jour des attributs ARIA pour accessibilité
+        toggle.ariaExpanded = isClosed;
+        nav.hidden = isOpen;
+    });
+}

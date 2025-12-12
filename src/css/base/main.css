@@ -67,16 +67,22 @@ body {
 .deco__body {
     display: flex;
     justify-content: center;
-    width: 100px;
+    gap: 210px;
 }
 
 .deco__body-left, .deco__body-right {
-    width: 37px;
+    width: 40px;
 }
 
+.deco__body-right {
+    transform: scale(-1, 1);
+}
 
+.deco__footer {
 
-.dates {
+}
+
+.section {
     background-color: var(--rouge);
 }
 
@@ -136,7 +142,7 @@ body {
     padding-top: 64px;
 }
 
-.discover {
+.section-2 {
     background-color: var(--bleu);
 }
 
@@ -173,7 +179,7 @@ body {
     position: absolute;
     bottom: 20px;
     left: 20px;
-    color: white;
+    color: var(--ivoire);
     z-index: 1;
 }
 

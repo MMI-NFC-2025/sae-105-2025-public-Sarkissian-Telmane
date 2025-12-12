@@ -97,6 +97,10 @@ body {
     transform: scale(-1, -1);
 }
 
+.deco__section-3-right-down, .deco__section-3-left-down {
+    padding-top: 64px;
+}
+
 .section {
     background-color: var(--rouge);
 }

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Le Festicloze</title>
+    <title>Nos scènes - Marché de Noël</title>
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
@@ -17,52 +17,107 @@
     <link rel="stylesheet" href="src/css/styles.css">
     <script type="module" src="src/js/script.js"></script>
 </head>
-<img src="assets/icons/boutons/menu bouton.svg" alt="bouton menu">
-</button>
-<li class="menu__item">
-    <a class="menu__link" href="nos scènes.html">Nos scènes</a>
-    <img class="deco__hero-left" src="assets/icons/decorations/dorure feuille rouge gauche.svg" alt="">
-    <img class="deco__hero-right" src="assets/icons/decorations/dorure feuille rouge gauche.svg" alt="">
-    </div>
-    </div>
-    <img class="deco__bar-up" src="assets/icons/decorations/dorure barrière rouge.svg" alt="" loading="lazy">
 
-    <div class="page-scene section">
-        <h2 class="title">Description</h2>
-        <div class="page-scene__card">
-            <img class="page-scene__img" src="assets/img/scènes/page fiche scene/marché.avif" alt="Scène du Marché"
-                loading="lazy">
-            <p class="page-scene__title">Scène du Marché</p>
-            <div class="page-scene__info-adress">
-                <p class="page-scene__info-title">Adresse :</p>
-                <p class="page-scene__info-text">10 Rue de l’Hôtel de Ville</p>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <div class="header__container-logo">
+                <a href="index.html">
+                    <img class="header__logo" src="assets/icons/logo.svg" alt="Logo Festicloze">
+                </a>
             </div>
-            <div class="page-scene-info-artistes">
-                <p class="page-scene__info-title">Artistes présents</p>
-                <p class="page-scene__info-text">Marc-Antoine Charpentier - <span>21 Décembre</span></p>
-                <p class="page-scene__info-text">Jean-Baptiste Lully - <span>21 Décembre</span></p>
-                <p class="page-scene__info-text">Mariah Carey - <span>22 Décembre</span></p>
+
+            <div class="header__container-menu-btn">
+                <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false"
+                    aria-controls="mainNav">
+                    <img src="assets/icons/boutons/menu bouton.svg" alt="bouton menu">
+                </button>
             </div>
         </div>
-    </div>
 
-    <img class="deco__bar-down" src="assets/icons/decorations/dorure barrière rouge.svg" alt="" loading="lazy">
-    <img class="deco__bar-up" src="assets/icons/decorations/dorure barrière dorée.svg" alt="" loading="lazy">
+        <nav class="menu" hidden>
+            <ul class="menu__list u-list-unstyled">
+                <li class="menu__item">
+                    <a class="menu__link" href="le festicloze.html">Le Festicloze</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="programme.html">Le programme</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="les artistes.html">Les artistes</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="nos scènes.html">Nos scènes</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="info pratiques.html">Infos pratiques</a>
+                </li>
+            </ul>
+            <ul class="menu__sub-list u-list-unstyled">
+                <li class="menu__sub-item">
+                    <a class="menu__link" href="contact.html">Contact</a>
+                </li>
+                <li class="menu__sub-item">
+                    <a class="menu__link" href="FAQ.html">FÀQ</a>
+                </li>
+                <li class="menu__sub-item">
+                    <a class="menu__link" href="à propos.html">À propos</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
-    <div class="vide">
+    <main>
+        <div class="hero">
+            <div class="hero__visual">
+                <div class="overlay"></div>
+                <img class="hero__img" src="assets/img/hero/accueil hero.avif" alt="Le Festicloze hero">
+            </div>
+            <h1 class="hero__title">Scène Marché de Noël</h1>
+            <p class="hero__intro">Retrouvez ici plus d’informations sur la scène !</p>
+            <div class="deco__hero">
+                <img class="deco__hero-left" src="assets/icons/decorations/dorure feuille rouge gauche.svg" alt="">
+                <img class="deco__hero-right" src="assets/icons/decorations/dorure feuille rouge gauche.svg" alt="">
+            </div>
+        </div>
+        <img class="deco__bar-up" src="assets/icons/decorations/dorure barrière rouge.svg" alt="" loading="lazy">
+
+        <div class="page-scene section">
+            <h2 class="title">Description</h2>
+            <div class="page-scene__card">
+                <img class="page-scene__img" src="assets/img/scènes/page fiche scene/marché.avif" alt="Scène du Marché"
+                    loading="lazy">
+                <p class="page-scene__title">Scène du Marché</p>
+                <div class="page-scene__info-adress">
+                    <p class="page-scene__info-title">Adresse :</p>
+                    <p class="page-scene__info-text">10 Rue de l’Hôtel de Ville</p>
+                </div>
+                <div class="page-scene-info-artistes">
+                    <p class="page-scene__info-title">Artistes présents</p>
+                    <p class="page-scene__info-text">Marc-Antoine Charpentier - <span>21 Décembre</span></p>
+                    <p class="page-scene__info-text">Jean-Baptiste Lully - <span>21 Décembre</span></p>
+                    <p class="page-scene__info-text">Mariah Carey - <span>22 Décembre</span></p>
+                </div>
+            </div>
+        </div>
+
+        <img class="deco__bar-down" src="assets/icons/decorations/dorure barrière rouge.svg" alt="" loading="lazy">
+        <img class="deco__bar-up" src="assets/icons/decorations/dorure barrière dorée.svg" alt="" loading="lazy">
+
+        <div class="vide">
+            <div class="deco__section-3">
+                <img class="deco__section-3-left" src="assets/icons/decorations/dorure feuille dorée gauche.svg" alt=""
+                    loading="lazy">
+                <img class="deco__section-3-right" src="assets/icons/decorations/dorure feuille dorée gauche.svg" alt=""
+                    loading="lazy">
+            </div>
+        </div>
         <div class="deco__section-3">
-            <img class="deco__section-3-left" src="assets/icons/decorations/dorure feuille dorée gauche.svg" alt=""
-                loading="lazy">
-            <img class="deco__section-3-right" src="assets/icons/decorations/dorure feuille dorée gauche.svg" alt=""
-                loading="lazy">
+            <img class="deco__section-3-left deco__section-3-left-down"
+                src="assets/icons/decorations/dorure feuille dorée gauche.svg" alt="" loading="lazy">
+            <img class="deco__section-3-right deco__section-3-right-down"
+                src="assets/icons/decorations/dorure feuille dorée gauche.svg" alt="" loading="lazy">
         </div>
-    </div>
-    <div class="deco__section-3">
-        <img class="deco__section-3-left deco__section-3-left-down"
-            src="assets/icons/decorations/dorure feuille dorée gauche.svg" alt="" loading="lazy">
-        <img class="deco__section-3-right deco__section-3-right-down"
-            src="assets/icons/decorations/dorure feuille dorée gauche.svg" alt="" loading="lazy">
-    </div>
     </main>
 
     <footer class="footer">
@@ -93,6 +148,6 @@
                     MMI de Montbéliard</a></span></p>
         <p>Telmane Sarkissian C1 - telmane.sarkissian@edu.univ-fcomte.fr</p>
     </footer>
-    </body>
+</body>
 
 </html>

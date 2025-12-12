@@ -52,6 +52,7 @@ body {
     justify-content: center;
     padding-top: 30px;
     padding-bottom: 30px;
+    text-align: center;
 }
 
 .hero__intro {
@@ -62,6 +63,7 @@ body {
     display: flex;
     justify-content: center;
     margin-inline: 24px;
+    padding-bottom: 10px;
 }
 
 .deco__section-2 {

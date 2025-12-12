@@ -1,4 +1,9 @@
-.deco__bar-up, .deco__bar-down {
+body {
+    background-color: var(--ivoire);
+}
+
+.deco__bar-up,
+.deco__bar-down {
     width: 100%;
     display: block;
 }
@@ -12,9 +17,31 @@
     display: flex;
     justify-content: center;
     gap: 131px;
-    scale: 80%;
 }
 
 .deco__hero-right {
     transform: scale(-1, 1);
+}
+
+img {
+    position: relative;
+    z-index: -1;
+}
+
+.hero__visual {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, var(--beige) 0%, rgba(255, 255, 255, 0) 50%, var(--ivoire) 100%);
+    pointer-events: none;
+    z-index: 1;
 }

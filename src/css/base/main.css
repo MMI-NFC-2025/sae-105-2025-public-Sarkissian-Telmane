@@ -39,5 +39,42 @@ body {
     bottom: 0;
     background: linear-gradient(to bottom, var(--beige) 0%, rgba(255, 255, 255, 0) 50%, var(--ivoire) 100%);
     pointer-events: none;
+}
+
+.card-discover__img {
+    width: 100%;
+}
+
+.card-discover {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+}
+
+.overlay__gradient {
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay__gradient::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, transparent 0%, var(--rouge-foncé) 100%);
+    pointer-events: none;
+}
+
+.card-discover__title {
+    font-family: Gloock;
+    font-size: var(--text-h3);
+    text-decoration: underline 2px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
     z-index: 1;
 }
+

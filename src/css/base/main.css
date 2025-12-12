@@ -222,3 +222,28 @@ body {
     border: 5px solid var(--rouge-foncé);
     border-radius: 20px;
 }
+
+.page-404 {
+    padding-top: 100px;
+}
+
+.page-404__text {
+    font-family: Poppins;
+        font-size: var(--text-bold-2xl);
+        color: var(--rouge-foncé);
+        font-weight: 600;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 12px;
+        text-align: center;
+}
+
+.page-404-cta__text {
+    font-family: Poppins;
+    font-size: var(--text-bold-2xl);
+    color: var(--rouge-foncé);
+    display: flex;
+    justify-content: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}

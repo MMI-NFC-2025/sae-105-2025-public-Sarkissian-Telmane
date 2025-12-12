@@ -75,6 +75,16 @@ body {
     display: flex;
     justify-content: center;
     padding-top: 64px;
+    padding-bottom: 28px;
+}
+
+.dates__text {
+    font-family: Poppins;
+    font-size: var(--text-bold-2xl);
+    color: var(--ivoire);
+    display: flex;
+    justify-content: center;
+    padding-bottom: 12px;
 }
 
 .title-2{

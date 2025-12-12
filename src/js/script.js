@@ -14,3 +14,4 @@ if (toggle && nav) {
 }
 
 // carousel fonctionnel accessible depuis la page fiche d'artiste //
+

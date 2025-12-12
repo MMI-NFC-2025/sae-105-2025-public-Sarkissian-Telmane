@@ -82,9 +82,28 @@ body {
     font-family: Poppins;
     font-size: var(--text-bold-2xl);
     color: var(--ivoire);
+    font-weight: 600;
     display: flex;
     justify-content: center;
     padding-bottom: 12px;
+}
+
+.cta {
+    padding-top: 12px;
+    padding-bottom: 24px;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.cta__arrow {
+    width: 20px;
+}
+
+.cta__text {
+    font-family: Poppins;
+    font-size: var(--text-bold-2xl);
+    color: var(--ivoire);
 }
 
 .title-2{

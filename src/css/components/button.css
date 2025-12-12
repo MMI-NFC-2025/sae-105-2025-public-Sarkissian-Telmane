@@ -1,0 +1,23 @@
+.cta__button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 64px;
+}
+
+.button {
+    background-color: var(--rouge-foncé);
+    border: 5px solid var(--jaune);
+    border-radius: 10px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-inline: 38px;
+}
+
+.button__text {
+    font-family: Gloock;
+    font-size: var(--text-button);
+    text-decoration: none;
+    color: var(--jaune);
+}
+

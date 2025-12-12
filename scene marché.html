@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Les artistes - Mariah Carey</title>
+    <title>Nos scènes - Marché de Noël</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -16,20 +16,20 @@
 
 <body>
     <header class="header">
-            <div class="header__container">
-                <div class="header__container-logo">
-                    <a href="index.html">
-                        <img class="header__logo" src="assets/icons/logo.svg" alt="Logo Festicloze">
-                    </a>
-                </div>
-        
-                <div class="header__container-menu-btn">
-                    <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
-                        <img src="assets/icons/boutons/menu bouton.svg" alt="bouton menu">
-                    </button>
-                </div>
+        <div class="header__container">
+            <div class="header__container-logo">
+                <a href="index.html">
+                    <img class="header__logo" src="assets/icons/logo.svg" alt="Logo Festicloze">
+                </a>
             </div>
-
+    
+            <div class="header__container-menu-btn">
+                <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+                    <img src="assets/icons/boutons/menu bouton.svg" alt="bouton menu">
+                </button>
+            </div>
+        </div>
+    
         <nav class="header__menu menu" hidden>
             <ul class="menu__list u-list-unstyled">
                 <li class="menu__item">
@@ -61,18 +61,20 @@
             </ul>
         </nav>
     </header>
-
+    
     <main>
         <div class="hero">
-            <img class="hero__img" src="assets/img/hero/scène marché de noel.avif" alt="scene marché hero">
+            <div class="hero__visual">
+                <div class="overlay"></div>
+                <img class="hero__img" src="assets/img/hero/accueil hero.avif" alt="Le Festicloze hero">
+            </div>
             <h1 class="hero__title">Scène Marché de Noël</h1>
             <p class="hero__intro">Retrouvez ici plus d’informations sur la scène !</p>
-            <div>
+            <div class="deco__hero">
                 <img class="deco__hero-left" src="assets/icons/decorations/dorure feuille rouge gauche.svg" alt="">
                 <img class="deco__hero-right" src="assets/icons/decorations/dorure feuille rouge gauche.svg" alt="">
             </div>
         </div>
-
         <img class="deco__bar-up" src="assets/icons/decorations/dorure barrière rouge.svg" alt="">
 
         <div class="page-scene">

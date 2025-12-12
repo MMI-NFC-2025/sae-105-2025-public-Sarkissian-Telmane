@@ -36,3 +36,14 @@ body img {
     overflow: visible;
     background: transparent;
 }
+
+.menu {
+    height: 100vh;
+    transition: 1s;
+    overflow: hidden;
+}
+
+.menu[hidden] {
+    height: 0;
+    display: flex;
+}

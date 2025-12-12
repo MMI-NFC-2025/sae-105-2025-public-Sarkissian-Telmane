@@ -7,7 +7,7 @@ if (toggle && nav) {
     toggle.addEventListener("click", () => {
         const isOpen = toggle.ariaExpanded === "true";
         const isClosed = !isOpen;
-
+        document.body.classList.toggle('no-scroll');
         // Mise à jour des attributs ARIA pour accessibilité
         toggle.ariaExpanded = isClosed;
         nav.hidden = isOpen;

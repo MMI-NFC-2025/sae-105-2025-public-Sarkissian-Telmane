@@ -64,22 +64,37 @@ body {
     margin-inline: 24px;
 }
 
-.deco__body {
+.deco__section-2 {
     display: flex;
     justify-content: center;
     gap: 210px;
 }
 
-.deco__body-left, .deco__body-right {
+.deco__section-2-left, .deco__section-2-right {
     width: 40px;
 }
 
-.deco__body-right {
+.deco__section-2-right {
     transform: scale(-1, 1);
 }
 
-.deco__footer {
+.deco__section-3 {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-inline: 24px;
+}
 
+.deco__section-3-right, .deco__section-3-right-down {
+    transform: scale(-1, 1);
+}
+
+.deco__section-3-left-down {
+    transform: scale(1, -1);
+}
+
+.deco__section-3-right-down {
+    transform: scale(-1, -1);
 }
 
 .section {
@@ -140,6 +155,7 @@ body {
     display: flex;
     justify-content: center;
     padding-top: 64px;
+    padding-bottom: 28px;
 }
 
 .section-2 {

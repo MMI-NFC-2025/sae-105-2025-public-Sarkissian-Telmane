@@ -41,6 +41,32 @@ body {
     pointer-events: none;
 }
 
+.dates {
+    background-color: var(--rouge);
+}
+
+.title {
+    font-family: Gloock;
+    font-size: var(--text-h2);
+    color: var(--ivoire);
+}
+
+.title-2{
+    font-family: Gloock;
+    font-size: var(--text-h2);
+    color: var(--rouge);
+}
+
+.title-3{
+    font-family: Gloock;
+    font-size: var(--text-h2);
+    color: var(--rouge-foncé);
+}
+
+.discover {
+    background-color: var(--bleu);
+}
+
 .card-discover__img {
     width: 100%;
 }

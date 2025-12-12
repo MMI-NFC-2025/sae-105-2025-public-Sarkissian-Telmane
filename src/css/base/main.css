@@ -64,6 +64,18 @@ body {
     margin-inline: 24px;
 }
 
+.deco__body {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+}
+
+.deco__body-left, .deco__body-right {
+    width: 37px;
+}
+
+
+
 .dates {
     background-color: var(--rouge);
 }

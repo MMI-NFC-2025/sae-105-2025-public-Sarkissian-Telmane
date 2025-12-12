@@ -1,0 +1,20 @@
+.deco__bar-up, .deco__bar-down {
+    width: 100%;
+    display: block;
+}
+
+.deco__bar-down {
+    transform: scale(1, -1);
+}
+
+.deco__hero {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 131px;
+    scale: 80%;
+}
+
+.deco__hero-right {
+    transform: scale(-1, 1);
+}
